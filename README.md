@@ -10,6 +10,8 @@ npm install --save @angular/material @angular/cdk @angular/animations OR ng add 
 
 npm install @agm/core
 
+Open src/app/app.module.ts and import the AgmCoreModule. You neeed to provide a Google Maps API key to be able to see a Map : `AgmCoreModule.forRoot({ apiKey: 'YOUR_KEY' })` 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
